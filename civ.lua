@@ -14,8 +14,8 @@ if not player then return end
 local SETTINGS = {
 	-- Câmera / Zoom / FOV
 	MinZoom = 2,            -- Zoom mínimo (cliente)
-	MaxZoom = 500,          -- Zoom máximo (cliente)
-	FOV = 110,              -- Campo de visão (cliente)
+	MaxZoom = 7,          -- Zoom máximo (cliente)
+	FOV = 220,              -- Campo de visão (cliente)
 	ThirdPerson = true,     -- força Third Person no cliente (quando permitido)
 
 	-- Bright mode / lighting
